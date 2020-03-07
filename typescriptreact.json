@@ -111,7 +111,7 @@
       "",
       "export interface ${TM_FILENAME_BASE}Props {}",
       "",
-      "export const ${TM_FILENAME_BASE} = (props: ${TM_FILENAME_BASE}Props) => {",
+      "export const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = props => {",
       "  return (",
       "    <div>Hello!</div>",
       "  )",
