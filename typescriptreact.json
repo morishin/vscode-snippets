@@ -21,6 +21,31 @@
     ],
     "description": "React Component"
   },
+  "React Component (emotion)": {
+    "prefix": "rce",
+    "body": [
+      "/** @jsx jsx */",
+      "import { css, jsx } from '@emotion/core'",
+      "",
+      "const containerStyle = css`",
+      "  display: flex;",
+      "  flex-direction: row;",
+      "`",
+      "",
+      "type Props = {",
+      "}",
+      "",
+      "export const ${TM_FILENAME_BASE}: React.FC<Props> = ({}) => {",
+      "  return (",
+      "    <div css={containerStyle}>",
+      "      <div>Hello!</div>",
+      "    </div>",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": "React Component (emotion)"
+  },
   "Next.js React Component": {
     "prefix": "nrc",
     "body": [
